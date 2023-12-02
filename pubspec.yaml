@@ -1,0 +1,44 @@
+name: flutter_application
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  percent_indicator:
+  flutter_riverpod: ^2.4.4
+  device_preview:
+  go_router: 
+  flutter:
+    sdk: flutter
+  envied:
+  freezed_annotation:
+  http: ^1.1.0
+  path_provider:
+  provider:
+  barcode_widget:
+  intl:
+
+  
+  cupertino_icons: ^1.0.2
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  freezed:
+  build_runner:
+  json_serializable:
+  flutter_test:
+    sdk: flutter
+  envied_generator:
+
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
